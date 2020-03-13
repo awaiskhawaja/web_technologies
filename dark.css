@@ -1,0 +1,20 @@
+body {
+	background-color: #17202A;
+}
+
+h1, h2, p, li, a, h3{
+	color: #006699;
+}
+
+img {
+	border-style: groove;
+	border-color: #006699;
+	padding: 5;
+	border-width: 5;
+}
+
+hr {
+	border-style: groove;
+	border-color: #006699;
+	border-width: 3;
+}
