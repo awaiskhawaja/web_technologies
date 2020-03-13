@@ -1,0 +1,128 @@
+<html>
+
+	<head>
+		
+		<title>1.3.4 Web Technologies</title>
+		<link id="cssLink" rel="stylesheet" href="default.css">
+
+	</head>
+
+	<body>
+		
+		<h1>1.3.4 Web Technologies</h1>
+		<p>This module will teach you the basics of how to create your own web pages.</p>
+		<p>The first couple of lessons are on <b>HTML, CSS</b> and <b>Javascript.</b></p>
+		<a href="https://www.w3schools.com/">A greate resource while you learn is W3Schools</a>
+		<br><br>
+		<hr>
+
+		<br>
+		<p style="display: inline;">Theme:</p>
+		<select id="theme" style="display: inline;" onchange="changeTheme(this.value);">
+
+			<option>Default</option>
+
+			<option style="background-color: DARKOLIVEGREEN; color: #ADFF2F">Green</option>
+
+			<option style="background-color: #17202A; color: #006699">Dark</option>
+
+			<option style="background-color: black; color: yellow">Contrast</option>
+
+			<option id="rain" style="background-color: red; color: green">Rainbow</option>
+			
+		</select>
+		<br><br>
+
+		<hr>
+
+		<div style="display: inline-block;">
+			<h2>Lesson 1 - HTML</h2>
+			<h3>Objectives:</h3>
+			<ul>
+				<li>Understand what a HTML document is</li>
+				<li>Be able to create HTML documents</li>
+				<li>Be able to use a number of HTML tags and evaluate what they do</li>
+			</ul>
+			<h3>Outcomes:</h3>
+			<ol>
+				<li>HTML tag definitions</li>
+				<li>Example HTML code</li>
+			</ol>
+		</div>
+
+		<div style="float:right; display: inline-block; padding-right: 10">
+			<br><br>
+			<img src="HTML5_logo.png", height="200">
+		</div>
+
+		<br><br>
+		<hr>
+
+		<div style="display: inline-block;">
+			<h2>Lesson 2 - CSS</h2>
+			<h3>Objectives:</h3>
+			<ul>
+				<li>Understand what a CSS document is</li>
+				<li>Be able to create CSS documents</li>
+				<li>Be able to use a number of CSS selectors and a number of CSS properties</li>
+			</ul>
+			<h3>Outcomes:</h3>
+			<ol>
+				<li>CSS property definitions</li>
+				<li>Example CSS code with both internal & external style sheets</li>
+			</ol>
+		</div>
+
+		<div style="float:right; display: inline-block; padding-right: 30">
+			<br><br>
+			<img src="CSS_logo.png", height="200">
+		</div>
+
+		<br><br>
+		<hr>
+
+		<div style="display: inline-block;">
+			<h2>Lesson 3 - Javascript</h2>
+			<h3>Objectives:</h3>
+			<ul>
+				<li>Understand why Javascript is used</li>
+				<li>Define basic javascript technology</li>
+			</ul>
+			<h3>Outcomes:</h3>
+			<ol>
+				<li>Create a Javascript form</li>
+				<li>Perform form validation</li>
+			</ol>
+		</div>
+
+		<div style="float:right; display: inline-block; padding-right: 0">
+			<br>
+			<img src="Javascript_logo.png", height="200">
+		</div><br><br>
+
+		<hr>
+
+		<p>Awais Khawaja - 2020</p>
+
+		<script>
+			function changeTheme(v){
+				if (v == "Default"){
+					document.getElementById("cssLink").setAttribute("href", "default.css");
+				}else if (v == "Green"){
+					document.getElementById("cssLink").setAttribute("href", "green.css");
+				}else if (v == "Dark"){
+					document.getElementById("cssLink").setAttribute("href", "dark.css");
+				}
+				else if (v == "Contrast"){
+					document.getElementById("cssLink").setAttribute("href", "contrast.css");
+				}
+				else if (v == "Rainbow"){
+					document.getElementById("cssLink").setAttribute("href", "rainbow.css");
+				}
+
+			}
+		</script>
+
+	</body>
+
+</html>
