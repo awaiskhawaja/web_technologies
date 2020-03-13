@@ -1,0 +1,19 @@
+body {
+	background-color: DARKOLIVEGREEN;
+}
+
+h1, h2, p, li, a, h3{
+	color: #ADFF2F;
+}
+
+img {
+	border-style: dashed;
+	border-color: #ADFF2F;
+	padding: 5
+}
+
+hr {
+	border-style: dashed;
+	border-color: #ADFF2F;
+	border-width: 2;
+}

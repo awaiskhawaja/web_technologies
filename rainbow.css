@@ -1,0 +1,63 @@
+body {
+	background: black;
+	animation: colour 10s infinite;
+}
+
+@keyframes colour{
+	0% {
+		background: red;
+	}
+	7% {
+		background: orange;
+	}
+	21% {
+		background: yellow;
+	}
+	35% {
+		background: green;
+	}
+	49% {
+		background: blue;
+	}
+	63% {
+		background: indigo;
+	}
+	77% {
+		background: violet;
+	}
+	100% {
+		background: red;
+	}
+}
+
+p, h1, h2, h3, li, a {
+	color: black;
+	animation: colour_contrast 10s infinite;
+}
+
+@keyframes colour_contrast{
+	0% {
+		color: green;
+	}
+	7% {
+		color: blue;
+	}
+	21% {
+		color: indigo;
+	}
+	35% {
+		color: violet;
+	}
+	49% {
+		color: red;
+	}
+	63% {
+		color: orange;
+	}
+	77% {
+		color: yellow;
+	}
+	100% {
+		color: green;
+	}
+}

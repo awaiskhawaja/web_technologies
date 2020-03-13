@@ -1,0 +1,26 @@
+body {
+	background-color: black;
+}
+
+h1, h2, p, li, a, h3{
+	color: yellow;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p, li, a, h3{
+	font-size: 20;
+}
+
+img {
+	background-color: yellow;
+	padding: 5;
+	border-color: black;
+	border-style: double;
+	border-width: 5;
+}
+
+hr {
+	border-style: solid;
+	border-color: yellow;
+	border-width: 2;
+}
